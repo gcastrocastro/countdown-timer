@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('malaga.jpeg');
+    min-height:100vh;
+    background-size: cover;
+    background-position:center center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-container{
+    display:flex;
+}
+
+h1{
+    font-size: 2rem;
+    margin-top: -17rem;
+    font-weight: normal;
+}
+
+.big-text{
+    font-weight:bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+span{
+    font-size: 1.5rem;
+}
